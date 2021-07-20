@@ -29,3 +29,18 @@ psk-files-chooser .btn {
 .add-menu psk-files-chooser {
     border: none;
 }
+
+psk-files-chooser > button.btn {
+    background: #008898 !important;
+    min-width: 200px;
+    padding: 4px 10px;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    height: 38px;
+    font-size: 15px;
+}
+
+psk-files-chooser .fileDiv {
+    display: none;
+}
