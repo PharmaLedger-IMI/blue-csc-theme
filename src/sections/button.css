@@ -1,0 +1,84 @@
+.btn-filter {
+    border: none;
+    background-color: transparent;
+    color: black;
+    border-radius: 0;
+    margin: 0;
+    font-weight: 600;
+    font-size: 0.875rem;
+    box-shadow: none;
+    padding: 0.5rem 1rem;
+}
+
+.btn-filter.active {
+    background-color: rgba(247, 247, 247, 0.8);
+    color: white;
+}
+
+.btn-filter:focus,
+.btn-filter:not(:disabled):not(.disabled):active {
+    border: none !important;
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-filter label:hover {
+    cursor: pointer;
+}
+
+.btn-filter:disabled,
+.btn-filter:disabled label {
+    cursor: default;
+    font-weight: 600;
+    color: black;
+    text-shadow: 0 0 black;
+}
+
+.btn-filter:active,
+.btn-filter:hover,
+.btn-filter:focus,
+.btn-filter.selected {
+    color: rgba(0, 136, 152, 0.8);
+    cursor: pointer;
+}
+
+.btn-bare {
+    border: none;
+    background-color: white;
+    color: black;
+    border-radius: 0;
+    margin: 0;
+    font-weight: 600;
+    font-size: 0.95rem;
+    box-shadow: none;
+    text-align: left;
+    vertical-align: bottom;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    cursor: default !important;
+}
+
+.btn-bare.active {
+    background-color: rgba(247, 247, 247, 0.8);
+    color: white;
+}
+
+.btn-bare:focus,
+.btn-bare:not(:disabled):not(.disabled):active {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-bare label:hover {
+    cursor: pointer;
+}
+
+.btn-bare:disabled,
+.btn-bare:disabled label {
+    cursor: default;
+    font-weight: 600;
+    color: black;
+    text-shadow: 0 0 black;
+}

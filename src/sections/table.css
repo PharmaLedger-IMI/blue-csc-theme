@@ -1,0 +1,86 @@
+@import url(button.css);
+@import url(pagination.css);
+@import url(search.css);
+
+.row-wrapper {
+    padding: 0.5rem 1.5rem;
+    display: flex;
+    width: 100%;
+}
+
+.full-flex-column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.content-section {
+    display: grid;
+    height: 100%;
+}
+
+.content-section > div {
+    display: none;
+}
+
+.content-section > div[data-if] {
+    display: block;
+}
+
+.filters-wrapper {
+    display: flex;
+    border-radius: 2rem;
+    background-color: #FFFFFF;
+    width: fit-content;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.75);
+    padding: 0.25rem 1rem;
+}
+
+.filter-status {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    font-size: 0.875rem;
+}
+
+.filter-status label {
+    margin: 0;
+    padding-left: 0.5rem;
+}
+
+.table-container-wrapper {
+    border-radius: 2rem;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.75);
+    padding: 0.25rem 1rem;
+}
+
+.table-header {
+    border-bottom: 1px solid #000000;
+}
+
+.table-body {
+    row-gap: 0.25rem;
+}
+
+.table-row {
+    column-gap: 0.5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    padding: 0.5rem;
+    margin: 0;
+}
+
+.table-cell {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 0.875rem;
+}
+
+label.table-cell {
+    margin: 0;
+}

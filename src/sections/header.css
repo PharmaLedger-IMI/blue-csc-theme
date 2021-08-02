@@ -1,0 +1,41 @@
+.header {
+    background: #00345b;
+    height: 80px;
+    width: 100%;
+    padding: 20px;
+    position: sticky;
+}
+
+.header-left {
+    padding-left: 20px;
+    width: 50%;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    text-align: left;
+}
+
+.header-right {
+    padding-right: 20px;
+    width: 50%;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    text-align: right;
+}
+
+.header-username {
+    color: white;
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+.header-role-title {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    display: inline;
+    margin-left: 11px;
+}
