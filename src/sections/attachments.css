@@ -1,0 +1,26 @@
+.attach-documents-table {
+    /*min-height:340px;*/
+}
+
+.attach-documents-table thead {
+    color: #00345b;
+}
+
+.attach-documents-table-icon {
+    cursor: pointer;
+    width: 34px;
+    height: 34px;
+    margin-top: -7px;
+}
+
+.attach-documents-table-icon path {
+    fill: #008898;
+}
+
+.attach-documents-table td {
+    text-align: center;
+}
+
+.attach-documents-table th {
+    text-align: center;
+}

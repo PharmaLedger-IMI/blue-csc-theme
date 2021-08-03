@@ -1,9 +1,3 @@
-@media (min-width: 768px) {
-    .pagination-wrapper {
-        margin: 0;
-    }
-}
-
 .pagination-container {
     display: flex;
     align-items: center;
@@ -55,4 +49,10 @@
 .pagination-wrapper .page-numbers button[data-active-page="true"] {
     background-color: #008898;
     color: #FFFFFF;
+}
+
+@media (max-width: 767px) {
+    .pagination-wrapper {
+        margin: 0;
+    }
 }

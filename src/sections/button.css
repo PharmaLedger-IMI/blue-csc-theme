@@ -1,3 +1,42 @@
+button svg {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.75rem;
+}
+
+button svg path {
+    fill: #FFFFFF;
+}
+
+.btn-default {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #008898;
+    padding: 0.25rem 1.5rem;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    min-width: 200px;
+}
+
+.btn-default:focus {
+    outline: 0;
+}
+
+.btn-default:hover {
+    background: #177f8b;
+}
+
+.btn-default[disabled]:hover {
+    background: #008898;
+}
+
+.btn-default[disabled] {
+    opacity: 0.5;
+}
+
 .btn-filter {
     border: none;
     background-color: transparent;
@@ -81,4 +120,32 @@
     font-weight: 600;
     color: black;
     text-shadow: 0 0 black;
+}
+
+.btn-download-small {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #008898;
+    text-align: center;
+    outline: none !important;
+    border: none !important;
+    border-radius: 0.25rem;
+}
+
+.btn-download-small:hover,
+.btn-download-small:active,
+.btn-download-small:focus {
+    box-shadow: 0 0 0.25rem 0 rgba(0, 0, 0, 0.75)
+}
+
+.btn-download-small svg {
+    width: 32px;
+    height: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-download-small svg path {
+    fill: #FFFFFF;
 }
