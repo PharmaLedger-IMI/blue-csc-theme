@@ -53,3 +53,17 @@
 .responsive-table .table td {
     min-width: 8rem;
 }
+
+.responsive-table::-webkit-scrollbar {
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.responsive-table::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.responsive-table::-webkit-scrollbar-thumb {
+    background-color: rgba(50, 50, 50, 0.25);
+    border-radius: 0.5rem;
+}
