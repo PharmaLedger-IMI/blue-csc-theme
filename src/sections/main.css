@@ -56,17 +56,17 @@ label[data-status] {
     min-width: 12rem;
 }
 
-.background-blue,
+.background-primary,
 label[data-status] {
     background: #4171b1;
 }
 
-.background-green,
+.background-approved,
 label[data-status="Approved"] {
     background: #34a86b;
 }
 
-.background-red,
+.background-cancelled,
 label[data-status="Canceled"] {
     background: red;
 }
