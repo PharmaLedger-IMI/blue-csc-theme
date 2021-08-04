@@ -28,29 +28,28 @@
     padding: 0.25rem 1rem;
 }
 
-.table-header {
-    border-bottom: 1px solid #000000;
+.table-container-wrapper thead tr {
+    border-bottom: 1px solid #212529;
 }
 
-.table-body {
-    row-gap: 0.25rem;
-}
-
-.table-row {
-    column-gap: 0.5rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    padding: 0.5rem;
+.table-container-wrapper tr label {
     margin: 0;
 }
 
-.table-cell {
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    font-size: 0.875rem;
+.responsive-table {
+    overflow: auto;
+    max-height: calc(100vh - 420px);
+    max-width: calc(100vw - 60px);
 }
 
-label.table-cell {
-    margin: 0;
+.responsive-table thead th {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: #FFFFFF;
+}
+
+.responsive-table .table th,
+.responsive-table .table td {
+    min-width: 8rem;
 }

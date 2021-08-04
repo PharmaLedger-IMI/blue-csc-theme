@@ -45,7 +45,6 @@
 }
 
 label[data-status] {
-    width: 100%;
     -webkit-border-radius: 1rem;
     -moz-border-radius: 1rem;
     border-radius: 1rem;
@@ -54,6 +53,7 @@ label[data-status] {
     align-items: center;
     color: #FFFFFF;
     padding: 0.15rem 0;
+    min-width: 12rem;
 }
 
 .background-blue,
