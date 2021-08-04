@@ -46,7 +46,7 @@
     box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.75);
 }
 
-.pagination-wrapper .page-numbers button[data-active-page="true"] {
+.pagination-wrapper .page-numbers button[data-active-page] {
     background-color: #008898;
     color: #FFFFFF;
 }

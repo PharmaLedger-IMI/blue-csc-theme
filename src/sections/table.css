@@ -1,7 +1,3 @@
-@import url(button.css);
-@import url(pagination.css);
-@import url(search.css);
-
 .filters-wrapper {
     display: flex;
     border-radius: 2rem;

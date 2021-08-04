@@ -23,7 +23,7 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    background: white;
+    background: #FFFFFF;
     width: 100%;
     border: 1px solid #f3f3f3;
     border-top: 0;
