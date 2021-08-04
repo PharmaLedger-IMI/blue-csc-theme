@@ -1,0 +1,30 @@
+.accordion-item {
+    border-radius: 5px 5px 0 0;
+    font-weight: 700;
+    color: #00345b;
+    transition: 0.4s;
+}
+
+.accordion-item svg {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.accordion-item svg > path {
+    fill: #00345b;
+}
+
+.accordion-item-active {
+    background: #ecf7f9;
+}
+
+.accordion-item-holder {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background: #FFFFFF;
+    width: 100%;
+    border: 1px solid #f3f3f3;
+    border-top: 0;
+}
