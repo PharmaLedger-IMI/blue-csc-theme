@@ -1,14 +1,15 @@
 button svg {
     width: 1rem;
     height: 1rem;
-    margin-right: 0.75rem;
+    margin: 0 0.75rem;
 }
 
 button svg path {
     fill: #FFFFFF;
 }
 
-.btn-default {
+.btn-default,
+.btn-reset {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,11 +22,10 @@ button svg path {
     min-width: 200px;
 }
 
-.btn-default:focus {
-    outline: 0;
-}
-
+.btn-default:focus,
+.btn-default:active,
 .btn-default:hover {
+    outline: 0;
     background: #177f8b;
 }
 
@@ -34,6 +34,25 @@ button svg path {
 }
 
 .btn-default[disabled] {
+    opacity: 0.5;
+}
+
+.btn-reset {
+    background: #ef6c00;
+}
+
+.btn-reset:focus,
+.btn-reset:active,
+.btn-reset:hover {
+    outline: 0;
+    background: #bf5600;
+}
+
+.btn-reset[disabled]:hover {
+    background: #ef6c00;
+}
+
+.btn-reset[disabled] {
     opacity: 0.5;
 }
 

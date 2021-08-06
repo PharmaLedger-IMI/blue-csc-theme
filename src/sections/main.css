@@ -1,3 +1,26 @@
+.grid-column-wrapper {
+    display: grid;
+    row-gap: 0.5rem;
+    column-gap: 1.5rem;
+    grid-template-columns: 3fr 5fr;
+    width: 100%;
+    padding: 1rem;
+    color: #00345b;
+}
+
+.grid-column-wrapper > :nth-child(2n+1) {
+    font-weight: bold;
+    text-align: right;
+    font-size: 1rem;
+}
+
+.grid-column-wrapper > :nth-child(2n) {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 1rem;
+}
+
 .row-wrapper {
     padding: 0.5rem 1.5rem;
     display: flex;
@@ -83,6 +106,36 @@ label[data-status="Canceled"] {
 
 .nav-back svg path {
     fill: #00345b;
+}
+
+.comments-container {
+    display: flex;
+    width: 100%;
+    padding: 0 2rem;
+    row-gap: 2rem;
+}
+
+.comments-wrapper {
+    background: #e9ecef;
+    border: 1px solid #ced4da;
+    padding: 0.25rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    row-gap: 1rem;
+}
+
+.comments-container .comments-wrapper {
+    background: transparent;
+    border: none;
+}
+
+.comments-container label {
+    color: #00345b;
+}
+
+.identity {
+    color: #888888;
 }
 
 @media (max-width: 767px) {
