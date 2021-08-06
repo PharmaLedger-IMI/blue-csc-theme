@@ -4,9 +4,11 @@
 @import url(sections/button.css);
 @import url(sections/dashboard-menu.css);
 @import url(sections/header.css);
+@import url(sections/history.css);
 @import url(sections/notifications.css);
 @import url(sections/order.css);
 @import url(sections/pagination.css);
 @import url(sections/search.css);
+@import url(sections/stepper.css);
 @import url(sections/tab-navigator.css);
 @import url(sections/table.css);

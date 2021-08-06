@@ -27,4 +27,11 @@
     width: 100%;
     border: 1px solid #f3f3f3;
     border-top: 0;
+    padding: 0 10%;
+}
+
+@media (max-width: 767px) {
+    .accordion-item-holder {
+        padding: 0 2%;
+    }
 }
