@@ -1,3 +1,7 @@
+webc-app-root {
+    height: 100%;
+}
+
 .grid-column-wrapper {
     display: grid;
     row-gap: 0.5rem;
