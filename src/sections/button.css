@@ -56,6 +56,44 @@ button svg path {
     opacity: 0.5;
 }
 
+.btn-cancel {
+    background: red;
+}
+
+.btn-cancel:focus,
+.btn-cancel:active,
+.btn-cancel:hover {
+    outline: 0;
+    background: darkred;
+}
+
+.btn-cancel[disabled]:hover {
+    background: red;
+}
+
+.btn-cancel[disabled] {
+    opacity: 0.5;
+}
+
+.btn-approve {
+    background: #34a86b;
+}
+
+.btn-approve:focus,
+.btn-approve:active,
+.btn-approve:hover {
+    outline: 0;
+    background: #2b8d5a;
+}
+
+.btn-approve[disabled]:hover {
+    background: #34a86b;
+}
+
+.btn-approve[disabled] {
+    opacity: 0.5;
+}
+
 .btn-filter {
     border: none;
     background-color: transparent;

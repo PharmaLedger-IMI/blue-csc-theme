@@ -36,6 +36,9 @@ webc-app-root {
     justify-content: center;
     align-items: center;
     padding: 1rem;
+    column-gap: 3rem;
+    row-gap: 1rem;
+    flex-wrap: wrap;
 }
 
 .button-wrapper button {

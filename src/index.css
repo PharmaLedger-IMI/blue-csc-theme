@@ -1,4 +1,3 @@
-@import url(sections/main.css);
 @import url(sections/accordion.css);
 @import url(sections/attachments.css);
 @import url(sections/button.css);
@@ -12,3 +11,4 @@
 @import url(sections/stepper.css);
 @import url(sections/tab-navigator.css);
 @import url(sections/table.css);
+@import url(sections/main.css);
