@@ -38,7 +38,6 @@ webc-app-root {
     padding: 1rem;
     column-gap: 3rem;
     row-gap: 1rem;
-    flex-wrap: wrap;
 }
 
 .button-wrapper button {
