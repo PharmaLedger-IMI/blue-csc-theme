@@ -9,7 +9,9 @@ button svg path {
 }
 
 .btn-default,
-.btn-reset {
+.btn-reset,
+.btn-cancel,
+.btn-approve {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +21,6 @@ button svg path {
     color: white;
     border-radius: 5px;
     font-size: 15px;
-    min-width: 200px;
 }
 
 .btn-default:focus,
@@ -53,6 +54,44 @@ button svg path {
 }
 
 .btn-reset[disabled] {
+    opacity: 0.5;
+}
+
+.btn-cancel {
+    background: red;
+}
+
+.btn-cancel:focus,
+.btn-cancel:active,
+.btn-cancel:hover {
+    outline: 0;
+    background: darkred;
+}
+
+.btn-cancel[disabled]:hover {
+    background: red;
+}
+
+.btn-cancel[disabled] {
+    opacity: 0.5;
+}
+
+.btn-approve {
+    background: #34a86b;
+}
+
+.btn-approve:focus,
+.btn-approve:active,
+.btn-approve:hover {
+    outline: 0;
+    background: #2b8d5a;
+}
+
+.btn-approve[disabled]:hover {
+    background: #34a86b;
+}
+
+.btn-approve[disabled] {
     opacity: 0.5;
 }
 
@@ -114,7 +153,6 @@ button svg path {
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-    cursor: default !important;
 }
 
 .btn-bare.active {

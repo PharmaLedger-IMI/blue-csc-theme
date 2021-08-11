@@ -33,14 +33,16 @@ webc-app-root {
 
 .button-wrapper {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     padding: 1rem;
+    row-gap: 1rem;
+    flex-wrap: wrap;
 }
 
 .button-wrapper button {
     padding: 0.5rem;
-    min-width: 15rem;
+    min-width: 14rem;
 }
 
 .full-flex-column {
@@ -140,6 +142,12 @@ label[data-status="Canceled"] {
 
 .identity {
     color: #888888;
+}
+
+@media (max-width: 991px) {
+    .button-wrapper button {
+        min-width: 10rem;
+    }
 }
 
 @media (max-width: 767px) {
