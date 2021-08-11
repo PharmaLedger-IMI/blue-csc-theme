@@ -21,7 +21,6 @@ button svg path {
     color: white;
     border-radius: 5px;
     font-size: 15px;
-    min-width: 200px;
 }
 
 .btn-default:focus,
@@ -154,7 +153,6 @@ button svg path {
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-    cursor: default !important;
 }
 
 .btn-bare.active {
