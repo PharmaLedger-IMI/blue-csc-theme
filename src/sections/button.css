@@ -5,7 +5,7 @@ button svg {
 }
 
 button svg path {
-    fill: #FFFFFF;
+    /* fill: #008898; */
 }
 
 .btn-default,
@@ -30,14 +30,6 @@ button svg path {
     background: #177f8b;
 }
 
-.btn-default[disabled]:hover {
-    background: #008898;
-}
-
-.btn-default[disabled] {
-    opacity: 0.5;
-}
-
 .btn-reset {
     background: #ef6c00;
 }
@@ -47,14 +39,6 @@ button svg path {
 .btn-reset:hover {
     outline: 0;
     background: #bf5600;
-}
-
-.btn-reset[disabled]:hover {
-    background: #ef6c00;
-}
-
-.btn-reset[disabled] {
-    opacity: 0.5;
 }
 
 .btn-cancel {
@@ -68,14 +52,6 @@ button svg path {
     background: darkred;
 }
 
-.btn-cancel[disabled]:hover {
-    background: red;
-}
-
-.btn-cancel[disabled] {
-    opacity: 0.5;
-}
-
 .btn-approve {
     background: #34a86b;
 }
@@ -87,11 +63,11 @@ button svg path {
     background: #2b8d5a;
 }
 
-.btn-approve[disabled]:hover {
-    background: #34a86b;
-}
-
+.btn-default[disabled],
+.btn-reset[disabled],
+.btn-cancel[disabled],
 .btn-approve[disabled] {
+    background: #888888;
     opacity: 0.5;
 }
 
@@ -177,6 +153,16 @@ button svg path {
     font-weight: 600;
     color: black;
     text-shadow: 0 0 black;
+}
+
+button.btn-bare svg {
+    width: 2rem;
+    height: 2rem;
+    margin: 0;
+}
+
+button.btn-bare svg path {
+    fill: #008898;
 }
 
 .btn-download-small {
