@@ -2,7 +2,8 @@
     color: #00345b;
 }
 
-.attach-documents-table-icon {
+.attach-documents-table-icon,
+.attach-documents-table-icon-remove {
     cursor: pointer;
     width: 34px;
     height: 34px;
@@ -11,13 +12,6 @@
 
 .attach-documents-table-icon path {
     fill: #008898;
-}
-
-.attach-documents-table-icon-remove {
-    cursor: pointer;
-    width: 34px;
-    height: 34px;
-    margin-top: -7px;
 }
 
 .attach-documents-table-icon-remove path {
