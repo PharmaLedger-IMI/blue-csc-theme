@@ -30,6 +30,10 @@
     padding: 0 10%;
 }
 
+.rotate-icon {
+    transform: rotate(90deg);
+}
+
 @media (max-width: 767px) {
     .accordion-item-holder {
         padding: 0 2%;
