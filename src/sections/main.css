@@ -58,11 +58,13 @@ webc-app-root {
     padding-bottom: 1rem;
 }
 
-.content-section > div {
+.content-section > div,
+.button-wrapper > div {
     display: none;
 }
 
-.content-section > div[data-if] {
+.content-section > div[data-if],
+.button-wrapper > div[data-if] {
     display: block;
 }
 
