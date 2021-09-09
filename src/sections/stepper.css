@@ -18,6 +18,11 @@
     width: 100%;
 }
 
+.step-element[step-inactive]{
+    pointer-events: none;
+    background: #e7e7e7;
+}
+
 .step-active {
     background: #4dfdf3;
 }
