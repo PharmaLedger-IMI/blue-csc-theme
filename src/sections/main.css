@@ -1,6 +1,9 @@
 webc-app-root {
     height: 100%;
 }
+webc-spinner{
+    background: rgba(64, 149, 131, 0.15);
+}
 
 .grid-column-wrapper {
     display: grid;
