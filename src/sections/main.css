@@ -78,7 +78,7 @@ webc-spinner{
     padding: 0 10% 2rem;
 }
 
-label[data-status] {
+label.status {
     -webkit-border-radius: 1rem;
     -moz-border-radius: 1rem;
     border-radius: 1rem;
@@ -90,19 +90,20 @@ label[data-status] {
     min-width: 12rem;
 }
 
-.background-primary,
-label[data-status] {
+.background-primary {
     background: #4171b1;
 }
 
-.background-approved,
-label[data-status="Approved"] {
+.background-approved {
     background: #34a86b;
 }
 
-.background-cancelled,
-label[data-status="Canceled"] {
+.background-cancelled {
     background: red;
+}
+
+.background-cancelled-after-approval {
+    background: grey;
 }
 
 .nav-back a {
