@@ -88,6 +88,7 @@ label.status {
     color: #FFFFFF;
     padding: 0.15rem 0;
     min-width: 12rem;
+    text-align: center;
 }
 
 .background-primary {
