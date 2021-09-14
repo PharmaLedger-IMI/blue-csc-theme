@@ -12,3 +12,7 @@ div.form-group psk-files-chooser label {
     color: #FFFFFF;
     margin:  0;
 }
+
+span.required{
+    color:darkred;
+}

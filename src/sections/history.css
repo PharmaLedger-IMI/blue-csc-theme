@@ -6,7 +6,9 @@
     width: 100%;
 }
 
-.history-orders {
+.history-orders,
+.history-shipments,
+.history-kits{
     width: 100%;
     font-size: 15px;
     height: 40px;
@@ -36,12 +38,16 @@
     border-radius: 25px;
 }
 
-.history-orders svg {
+.history-orders svg,
+.history-shipments svg,
+.history-kits svg{
     width: 27px;
     height: 27px;
 }
 
-.history-orders path {
+.history-orders path,
+.history-shipments path,
+.history-kits path{
     fill: white;
 }
 
