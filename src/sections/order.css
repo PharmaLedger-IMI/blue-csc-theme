@@ -1,35 +1,35 @@
-.single-order-navigation-holder {
+.order-navigation-section {
     text-align: left;
     font-size: 1rem;
     color: #00345b;
     padding: 0.75rem 0.5rem;
 }
 
-.single-order-navigation-holder span {
+.order-navigation-section span {
     cursor: pointer;
 }
 
-.single-order-title,
-.single-order-subtitle,
-.single-order-disclaimer {
+.order-title,
+.order-subtitle,
+.order-disclaimer {
     color: #00345b;
 }
 
-.single-order-title {
+.order-title {
     font-size: 1.5rem;
     margin-bottom: 1rem;
 }
 
-.single-order-subtitle {
+.order-subtitle {
     font-size: 1rem;
 }
 
-.single-order-disclaimer {
+.order-disclaimer {
     padding-top: 0.5rem;
     font-size: 0.875rem;
 }
 
-.single-order-main-holder {
+.order-main-section {
     padding: 20px;
     background: #FFFFFF;
     border-radius: 25px;
@@ -42,19 +42,19 @@
     width: 100%;
 }
 
-.single-order-main-holder .text-right {
+.order-main-section .text-right {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
 }
 
-.single-order-main-holder .text-left {
+.order-main-section .text-left {
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
 }
 
-.single-order-data-holder {
+.order-data-section {
     margin-top: 40px;
     height: 100%;
     flex-direction: column;

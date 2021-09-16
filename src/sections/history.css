@@ -1,4 +1,4 @@
-.new-order-created-title {
+.modal-main-title {
     font-size: 16px;
     text-align: center;
     color: #04444c;
@@ -28,7 +28,7 @@
     margin: 0 auto;
 }
 
-.history-status-element {
+.history-status {
     width: 100%;
     font-size: 15px;
     height: 64px;
