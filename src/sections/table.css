@@ -36,6 +36,11 @@
     margin: 0;
 }
 
+.table-container-wrapper .no-data-info{
+    text-align: center;
+    justify-content: center;
+}
+
 .responsive-table {
     overflow: auto;
     max-height: calc(100vh - 420px);
