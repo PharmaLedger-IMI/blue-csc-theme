@@ -16,11 +16,6 @@
     background-color: #00345b;
 }
 
-.tab-navigator button.active.btn {
-    background-color: #008898;
-    border-style: none;
-}
-
 .tab-navigator button.btn[is-active] {
     background-color: #008898;
     border-style: none;
