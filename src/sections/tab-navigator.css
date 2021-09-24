@@ -20,3 +20,8 @@
     background-color: #008898;
     border-style: none;
 }
+
+.tab-navigator button.btn[is-active] {
+    background-color: #008898;
+    border-style: none;
+}
