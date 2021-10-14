@@ -192,3 +192,7 @@ button.btn-bare svg path {
 .btn-download-small svg path {
     fill: #FFFFFF;
 }
+
+button.scan-again-button[disabled]{
+    visibility: hidden;
+}
