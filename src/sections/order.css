@@ -1,35 +1,35 @@
-.order-navigation-section {
+.navigation-section {
     text-align: left;
     font-size: 1rem;
     color: #00345b;
     padding: 0.75rem 0.5rem;
 }
 
-.order-navigation-section span {
+.navigation-section span {
     cursor: pointer;
 }
 
-.order-title,
-.order-subtitle,
-.order-disclaimer {
+.entity-title,
+.entity-subtitle,
+.entity-disclaimer {
     color: #00345b;
 }
 
-.order-title {
+.entity-title {
     font-size: 1.5rem;
     margin-bottom: 1rem;
 }
 
-.order-subtitle {
+.entity-subtitle {
     font-size: 1rem;
 }
 
-.order-disclaimer {
+.entity-disclaimer {
     padding-top: 0.5rem;
     font-size: 0.875rem;
 }
 
-.order-main-section {
+.body-main-section {
     padding: 20px;
     background: #FFFFFF;
     border-radius: 25px;
@@ -42,25 +42,25 @@
     width: 100%;
 }
 
-.order-main-section .text-right {
+.body-main-section .text-right {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
 }
 
-.order-main-section .text-left {
+.body-main-section .text-left {
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
 }
 
-.order-data-section {
+.entity-data-section {
     margin-top: 40px;
     height: 100%;
     flex-direction: column;
 }
 
-.order-status-box {
+.entity-status-box {
     text-align: center;
     border-radius: 25px;
     padding: 1rem 2rem;

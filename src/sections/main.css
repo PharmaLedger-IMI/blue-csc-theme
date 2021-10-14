@@ -71,7 +71,7 @@ webc-spinner{
     display: block;
 }
 
-.order-section {
+.header-section {
     display: flex;
     flex-direction: column;
     height: 100%;
