@@ -165,6 +165,10 @@ button.btn-bare svg path {
     fill: #008898;
 }
 
+button.warning.btn-bare svg path {
+    fill: orange;
+}
+
 .btn-download-small {
     display: flex;
     justify-content: center;
