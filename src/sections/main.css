@@ -77,6 +77,12 @@ webc-spinner{
     height: 100%;
     padding: 0 10% 2rem;
 }
+.header-section-full-width{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0;
+}
 
 label.status {
     -webkit-border-radius: 1rem;
