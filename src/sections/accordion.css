@@ -3,6 +3,7 @@
     font-weight: 700;
     color: #00345b;
     transition: 0.4s;
+    cursor: pointer;
 }
 
 .accordion-item svg {
@@ -28,6 +29,9 @@
     border: 1px solid #f3f3f3;
     border-top: 0;
     padding: 0 2%;
+}
+.accordion-item-holder.expanded{
+    max-height: 1000px;
 }
 
 .rotate-icon {

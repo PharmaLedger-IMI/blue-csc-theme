@@ -15,4 +15,6 @@
 @import url(sections/table.css);
 @import url(sections/kits.css);
 @import url(sections/main.css);
+@import url(sections/barcode-scanner.css);
+@import url(sections/progressbar.css);
 @import url(sections/shipment-scan.css);
