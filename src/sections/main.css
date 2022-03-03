@@ -109,10 +109,6 @@ label.status {
     background: red;
 }
 
-.background-cancelled-after-approval {
-    background: grey;
-}
-
 .nav-back a {
     text-decoration: none !important;
 }
