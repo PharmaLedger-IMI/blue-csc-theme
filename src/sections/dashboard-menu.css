@@ -42,7 +42,9 @@
 
 .dashboard-tab-icon {
     color: white;
-    display: inline-block;
+    display: flex!important;
+    align-items: center;
+    margin: 0 5px;
 }
 
 .dashboard-tab-icon svg {
