@@ -201,6 +201,6 @@ button.scan-again-button[disabled]{
     visibility: hidden;
 }
 
-.btn-reset > i {
-    padding:0 5px;
+button > i {
+    padding:0 5px !important;
 }
