@@ -204,3 +204,12 @@ button.scan-again-button[disabled]{
 button > i {
     padding:0 5px !important;
 }
+
+.btn-default > span{
+    padding:0 5px !important;
+}
+
+
+.btn-cancel > span{
+    padding:0 5px !important;
+}
