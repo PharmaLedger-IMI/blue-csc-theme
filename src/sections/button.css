@@ -169,32 +169,19 @@ button.warning.btn-bare svg path {
     fill: orange;
 }
 
-.btn-download-small {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #008898;
-    text-align: center;
-    outline: none !important;
-    border: none !important;
-    border-radius: 0.25rem;
+.file-name-downloader button{
+    background-color: #008898;
+    color: #FFF;
+    padding: 2px 8px;
 }
 
-.btn-download-small:hover,
-.btn-download-small:active,
-.btn-download-small:focus {
-    box-shadow: 0 0 0.25rem 0 rgba(0, 0, 0, 0.75)
-}
-
-.btn-download-small svg {
-    width: 32px;
-    height: 32px;
-    margin: 0;
-    padding: 0;
-}
-
-.btn-download-small svg path {
-    fill: #FFFFFF;
+.file-name-downloader button:hover,
+.file-name-downloader button:focus,
+.file-name-downloader button:not(.disabled):active:focus{
+    border-color: #177f8b;
+    background-color:#177f8b;
+    outline:0;
+    box-shadow:none;
 }
 
 button.scan-again-button[disabled]{
