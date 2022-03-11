@@ -23,6 +23,7 @@
 
 .dashboard-tab a {
     display: flex;
+    align-items: center;
 }
 
 .dashboard-tab-notification {
@@ -45,14 +46,4 @@
     display: flex!important;
     align-items: center;
     margin: 0 5px;
-}
-
-.dashboard-tab-icon svg {
-    height: 25px;
-    width: auto;
-    margin-top: -2px;
-}
-
-.dashboard-tab-icon-img path {
-    fill: white;
 }

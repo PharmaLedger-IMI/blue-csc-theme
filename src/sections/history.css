@@ -38,18 +38,12 @@
     border-radius: 25px;
 }
 
-.history-orders svg,
-.history-shipments svg,
-.history-kits svg{
-    width: 27px;
-    height: 27px;
+.history-orders i,
+.history-shipments i,
+.history-kits i{
+    margin-right: 5px;
 }
 
-.history-orders path,
-.history-shipments path,
-.history-kits path{
-    fill: white;
-}
 
 #history-modal {
     max-width: 100vh !important;

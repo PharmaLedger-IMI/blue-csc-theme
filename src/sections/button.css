@@ -1,11 +1,5 @@
-button svg {
-    width: 1rem;
-    height: 1rem;
-    margin: 0 0.75rem;
-}
-
-button svg path {
-    fill: #FFFFFF;
+button i{
+    color: #FFFFFF;
 }
 
 .btn-default,
@@ -155,18 +149,13 @@ button svg path {
     text-shadow: 0 0 black;
 }
 
-button.btn-bare svg {
-    width: 2rem;
-    height: 2rem;
-    margin: 0;
+button.btn-bare i {
+    color: #008898;
+    padding: 5px;
 }
 
-button.btn-bare svg path {
-    fill: #008898;
-}
-
-button.warning.btn-bare svg path {
-    fill: orange;
+button.warning.btn-bare i {
+    color: orange;
 }
 
 .file-name-downloader button{
@@ -189,14 +178,14 @@ button.scan-again-button[disabled]{
 }
 
 button > i {
-    padding:0 5px !important;
+    padding:0 5px;
 }
 
 .btn-default > span{
-    padding:0 5px !important;
+    padding:0 5px;
 }
 
 
 .btn-cancel > span{
-    padding:0 5px !important;
+    padding:0 5px;
 }

@@ -3,7 +3,7 @@
 }
 
 .notifications-section label,
-.notifications-section button svg {
+.notifications-section button i {
     margin: 0;
 }
 
@@ -11,13 +11,17 @@
     background: transparent;
 }
 
-.notifications-section svg.fa-circle path {
-    fill: darkred;
+.notifications-section i{
+    padding: 5px;
 }
 
-.notifications-section svg.fa-check path,
-.notifications-section svg.fa-search path {
-    fill: #008898;
+.notifications-section i.fa-circle {
+    color: darkred;
+}
+
+.notifications-section i.fa-check,
+.notifications-section i.fa-search{
+    color: #008898;
 }
 
 .notifications-section table {
